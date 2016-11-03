@@ -1,0 +1,45 @@
+PODS:
+  - Alamofire (4.0.0)
+  - ObjectMapper (2.0.0)
+  - Realm (1.1.0):
+    - Realm/Headers (= 1.1.0)
+  - Realm/Headers (1.1.0)
+  - RealmSwift (1.1.0):
+    - Realm (= 1.1.0)
+  - SimplePDF (2.0.0)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - ObjectMapper
+  - Realm
+  - RealmSwift
+  - SimplePDF (from `https://github.com/nRewik/SimplePDF.git`)
+  - SwiftyJSON (from `https://github.com/acegreen/SwiftyJSON.git`, branch `swift3`)
+
+EXTERNAL SOURCES:
+  SimplePDF:
+    :git: https://github.com/nRewik/SimplePDF.git
+  SwiftyJSON:
+    :branch: swift3
+    :git: https://github.com/acegreen/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SimplePDF:
+    :commit: 33563fa58777c059d10112fe900360887f84645c
+    :git: https://github.com/nRewik/SimplePDF.git
+  SwiftyJSON:
+    :commit: 8971384559780e631b041ac91b16734a396d4c14
+    :git: https://github.com/acegreen/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: fef59f00388f267e52d9b432aa5d93dc97190f14
+  ObjectMapper: aed2570edabbd3c9b26c939e1cabdb6558f933e0
+  Realm: ceecf1a4540c4ce9efe196fe73fa9855bce05bd8
+  RealmSwift: 838058b2db95b12cb86bd0cf209df642c33fb60a
+  SimplePDF: 9004c9ad4aa30a9ccec6032f4f12b76bc053ec55
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: c956bc6d9c4391cd08e4017ade0216fed57ab4c8
+
+COCOAPODS: 1.1.0.rc.2
