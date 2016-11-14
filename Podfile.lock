@@ -1,6 +1,7 @@
 PODS:
   - Alamofire (4.0.0)
   - ObjectMapper (2.0.0)
+  - PDFReader (2.1.3)
   - Realm (1.1.0):
     - Realm/Headers (= 1.1.0)
   - Realm/Headers (1.1.0)
@@ -12,12 +13,15 @@ PODS:
 DEPENDENCIES:
   - Alamofire
   - ObjectMapper
+  - PDFReader (from `https://github.com/Alua-Kinzhebayeva/iOS-PDF-Reader.git`)
   - Realm
   - RealmSwift
   - SimplePDF (from `https://github.com/nRewik/SimplePDF.git`)
   - SwiftyJSON (from `https://github.com/acegreen/SwiftyJSON.git`, branch `swift3`)
 
 EXTERNAL SOURCES:
+  PDFReader:
+    :git: https://github.com/Alua-Kinzhebayeva/iOS-PDF-Reader.git
   SimplePDF:
     :git: https://github.com/nRewik/SimplePDF.git
   SwiftyJSON:
@@ -25,6 +29,9 @@ EXTERNAL SOURCES:
     :git: https://github.com/acegreen/SwiftyJSON.git
 
 CHECKOUT OPTIONS:
+  PDFReader:
+    :commit: 9aa12e9e43f36aa3c3323082e671c5d5ff9c16be
+    :git: https://github.com/Alua-Kinzhebayeva/iOS-PDF-Reader.git
   SimplePDF:
     :commit: 33563fa58777c059d10112fe900360887f84645c
     :git: https://github.com/nRewik/SimplePDF.git
@@ -35,11 +42,12 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   Alamofire: fef59f00388f267e52d9b432aa5d93dc97190f14
   ObjectMapper: aed2570edabbd3c9b26c939e1cabdb6558f933e0
+  PDFReader: 2ed731d2cc1f580c590b55b0723e0b921c534c72
   Realm: ceecf1a4540c4ce9efe196fe73fa9855bce05bd8
   RealmSwift: 838058b2db95b12cb86bd0cf209df642c33fb60a
   SimplePDF: 9004c9ad4aa30a9ccec6032f4f12b76bc053ec55
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
 
-PODFILE CHECKSUM: c956bc6d9c4391cd08e4017ade0216fed57ab4c8
+PODFILE CHECKSUM: 236622c3ff68a460e6256b4481b0674af5c38c95
 
 COCOAPODS: 1.1.0.rc.2

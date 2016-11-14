@@ -10,6 +10,7 @@ target "realms" do
     pod 'Alamofire'
     pod 'ObjectMapper'
     pod 'SimplePDF', :git => 'https://github.com/nRewik/SimplePDF.git'
+    pod 'PDFReader', :git => 'https://github.com/Alua-Kinzhebayeva/iOS-PDF-Reader.git'
 end
 
 post_install do |installer|

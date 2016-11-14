@@ -9,6 +9,7 @@
 import UIKit
 import RealmSwift
 import SwiftyJSON
+import PDFReader
 
 class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource{
     
@@ -20,6 +21,14 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         
         queryPeople()
     }
+    
+    
+    
+    
+    
+    
+    
+    
     @IBAction func btnDetail(_ sender: AnyObject) {
         let vc = storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
         let nvc = UINavigationController(rootViewController: vc)
